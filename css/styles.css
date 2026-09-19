@@ -557,13 +557,6 @@ main {
   gap: var(--space-md);
 }
 
-@media (min-width: 720px) {
-  .footer-inner {
-    grid-template-columns: 1.4fr 1fr;
-    align-items: end;
-  }
-}
-
 .footer-brand {
   font-family: var(--font-display);
   font-size: 1.35rem;
@@ -577,24 +570,7 @@ main {
   max-width: 32rem;
 }
 
-.footer-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem 1.5rem;
-}
-
-.footer-links a {
-  color: rgba(243, 245, 242, 0.8);
-  text-decoration: none;
-  font-size: 0.9rem;
-}
-
-.footer-links a:hover {
-  color: #fff;
-}
-
 .footer-copy {
-  grid-column: 1 / -1;
   margin: 0;
   padding-top: var(--space-sm);
   border-top: 1px solid rgba(243, 245, 242, 0.12);
